@@ -140,6 +140,8 @@ font-size: 30px;
   }
   .column-group img {
     width: 50%;
+          object-fit: contain;
+
   }
   
   @media (max-width: 600px) {
