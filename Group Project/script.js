@@ -33,5 +33,13 @@ if ( document.body.classList.contains("dark-theme")) {
 }
 }
 // br 
+const welcomeMessage = document.getElementById("time");
 
+function displayWelcome() {
+  const date = new Date();
+  const formattedDate = date.toLocaleString();
+  welcomeMessage.textContent = `تاریخ و ساعت ${formattedDate}`;
+}
+
+displayWelcome();
 
